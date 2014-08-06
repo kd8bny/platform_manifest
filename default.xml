@@ -495,7 +495,7 @@
   </project>
 
   <!-- Muppets Fork -->
-  <project path="vendor/asus" name="kd8bny/proprietary_vendor_asus" remote="github" revision="cm-11.0" >
+  <project path="vendor/asus" name="kd8bny/proprietary_vendor_asus" remote="github" revision="cm-11.0" />
 
   <!-- Theme Manager -->
   <project path="packages/apps/ThemeChooser" name="Mahdi-Rom/android_packages_apps_ThemeChooser" remote="github" revision="kk-4.4.3" />
