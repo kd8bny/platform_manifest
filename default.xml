@@ -30,6 +30,7 @@
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="Mahdi-Rom/android_device_asus_flo" groups="device,flo" remote="github" revision="kk-4.4.3" />
   <project path="device/asus/grouper" name="Mahdi-Rom/android_device_asus_grouper" groups="device,grouper" remote="github" revision="kk-4.4.3" />
+  <project path="device/asus/tf300t" name="kd8bny/android_device_asus_flo" groups="device,tf300t" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -489,9 +490,12 @@
   <project path="system/qcom" name="Mahdi-Rom/android_system_qcom" remote="github" revision="kk-4.4.3" />
 
   <!-- Mahdi-Rom vendor -->
-  <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="github" revision="kk-4.4.3-caf" >
+  <project path="vendor/mahdi" name="kd8bny/android_vendor_mahdi" remote="github" revision="kk-4.4.3-caf" >
     <copyfile src="build.sh" dest="build.sh" />
   </project>
+
+  <!-- Muppets Fork -->
+  <project path="vendor/asus" name="kd8bny/proprietary_vendor_asus" remote="github" revision="cm-11.0" >
 
   <!-- Theme Manager -->
   <project path="packages/apps/ThemeChooser" name="Mahdi-Rom/android_packages_apps_ThemeChooser" remote="github" revision="kk-4.4.3" />
